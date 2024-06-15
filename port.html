@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +28,10 @@
             height: 250px;
             border-radius: 50%;
             margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         .social-icons a {
             font-size: 30px;
@@ -60,21 +65,24 @@
 </head>
 <body>
     <div class="container">
-        <center><img src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-1/311877012_634547971474438_5308663210886063447_n.jpg?stp=dst-jpg_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_dCRH3_k3IwQ7kNvgELRiFs&_nc_ht=scontent.fbkk8-4.fna&oh=00_AYA41v84UdzLMZ_8EC8v-3cji_0mDqyzu3gvEA0erQqMeg&oe=6672D037" alt="profileimage" class="profile-image"></center>
+        <center><img style="animation: spin 4s linear infinite;
+" src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-1/311877012_634547971474438_5308663210886063447_n.jpg?stp=dst-jpg_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_dCRH3_k3IwQ7kNvgELRiFs&_nc_ht=scontent.fbkk8-4.fna&oh=00_AYA41v84UdzLMZ_8EC8v-3cji_0mDqyzu3gvEA0erQqMeg&oe=6672D037" alt="profileimage" class="profile-image"></center>
         <h1>Jean</h1>
         <h2>Nice to meet you, glad you love this design ❤️</h2>
         
         <div class="about">
             <h3>About Me</h3>
-            <p>Hello! I'm Jean, Student from gifter computer the price royal collage , Personal interest are coding art and etc.</p>
+            <p>Hello! I'm Jean, Student from gifter computer ⭐ the price royal collage , Personal interest are coding art and etc.</p>
         </div>
 
-        <tabel></tabel>
         <div class="social-icons">
             <a href="https://www.facebook.com/JxxN03/?locale=th_TH"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/jxxn03z/"><i class="fa fa-instagram"></i></a>
             <a href="https://www.youtube.com/@9arm."><i class="fa fa-youtube-play"></i></a>
         </div>
     </div>
+    <footer>
+        <center>Made with ❤️ by @JxxN03</center>
+    </footer>
 </body>
 </html>
